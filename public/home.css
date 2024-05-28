@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home-container{
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+}
+.nav-bar{
+    background-color: rgb(49, 43, 43);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    margin-right: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logout-button{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    font-weight: 600;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}

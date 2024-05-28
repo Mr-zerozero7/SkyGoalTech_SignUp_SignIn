@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background-color: rgba(45, 120, 105, 0.232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    background-color: #22bdb8;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-family: 'roboto';
+}
+.login-heading{
+    text-align: center;
+    margin: auto;
+    color: rgb(42, 52, 54);
+}
+.form-container{
+    padding: 15px;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    align-self: auto;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: rgb(3, 69, 47);
+    font-weight: 600;
+    border-radius: 8px;
+    width: 80px;
+}
+.new-account-tag{
+    text-align: center;
+    margin: auto;
+}
+.signup-link{
+    color: rgb(128, 86, 6);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.signup-link:hover{
+    font-size: 24px;
+}
